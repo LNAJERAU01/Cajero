@@ -1,0 +1,103 @@
+.logoP{
+	height: 75px;
+}
+.logo{
+	height: 50px;
+}
+.navegacion{
+	float: right;
+}
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.gr{
+	font-weight: bold;
+}
+
+.normal{
+	font-weight: normal;
+}
+
+#contenido{
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.opciones{
+	text-decoration: noned
+}
+html{
+	font-family: "century gothic";
+}
+
+.derecho a{
+	width: 300px;
+}
+
+.izquierdo a{
+	width: 300px;
+}
+
+.derecho img{
+	margin-left: 10px;
+	
+}
+.izquierdo img{
+	margin-right: 10px;
+	
+}
+
+@media (max-width: 768px) {
+	.izquierdo{
+		padding-bottom: 25px;
+	}
+}
+
+.cont-dep{
+	margin-left: 25%;
+	width: 50%;
+}
+
+.help-block.error {
+	margin-bottom: 5px;
+	color: red;
+}
+
+#sindecoracion button{
+	margin-top: 15px;
+}
+#sindecoracion:link{
+    text-decoration:none;
+}
+
+#sindecoracion:visited{
+    text-decoration:none;
+}
+
+#sindecoracion:active{
+    text-decoration:none;
+}

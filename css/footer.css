@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+/* footer  */
+
+footer {
+    min-height: fit-content;
+    width: 100%;
+    background-color: #0B0D17;
+}
+
+footer .container .row{
+    padding: 5% 0 2% 0;
+}
+
+footer .logo-footer .row{
+    display: flex;
+    justify-content: left;
+}
+
+footer .logo-footer img{
+    margin: 0;
+    padding: 0;
+}
+
+footer h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F4F5F7;
+    padding-bottom: 10%;
+}
+
+footer h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #EEEFF4;
+    padding: 5% 0 5% 0;
+}
+
+.user{
+    padding-left: 50px;
+    justify-content: center;
+
+}
+
+.conexion{
+    padding-left: 50px;
+    font-style: italic;
+}
+
+.cuentas1{
+    
+    margin-top: 50px;
+    border-top: solid;
+    border-top-color: aqua;
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+    
+}
+
+
+.cuentas2{
+    
+    border-top: solid;
+    border-top-color: aqua;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: beige;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+}
+
+.resumencuenta{
+    
+    border-top: solid;
+    border-top-color: aqua;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: beige;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    
+}
+
+
+#espacio{
+    
+    background-color: white;
+    
+}
+
+.acciones{
+    
+    background-color: beige;
+    place-content: right;
+    
+}
+
+
+.Deposito{
+        
+    border-top: solid;
+    border-top-color: aqua;
+    background-color: beige;
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Deposito2{
+        
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pantalla{
+    margin-left: 200px;
+    margin-right: 250px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+
+.historial{
+    
+    border-top: solid;
+    border-top-color: aqua;
+    border-left:solid;
+    border-left-color: aqua;
+    border-right:solid;
+    border-right-color:aqua;
+    border-bottom:solid;
+    border-bottom-color:aqua;
+     margin-left: 200px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.grafico{
+    
+    border-top: solid;
+    border-top-color: aqua;
+    border-left:solid;
+    border-left-color: aqua;
+    border-right:solid;
+    border-right-color:aqua;
+    border-bottom:solid;
+    border-bottom-color:aqua;
+     margin-left: 200px;
+    margin-right: 250px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 100px;
+
+}
+
+.telefono {
+    
+    width:50px;
+    align-content: left;
+}
+
+.internet{
+    
+    width:50px;
+     align-content: center;
+
+}
+
+.cable{
+    width:50px;
+     align-content: center;
+    
+}
+
+.luz{
+    width:50px;
+     align-content: right;
+    
+}
+
+
+/* Media Queries  */
+
+/* Vista Movil */
+@media screen and (max-width:480px){
+    footer h4 {
+        font-size: 15px;
+    }
+    
+    footer h5 {
+        font-size: 10px;
+    }
+}

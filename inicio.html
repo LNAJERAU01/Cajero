@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> PokeBank </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/banco.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/logo3.ico" />
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     
+</head>
+
+<body>
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+	  <h5 class="my-0 mr-md-auto font-weight-normal"><img src="img/Pokemon-Bank.jpg" class="logoP"/></h5>
+      <nav class="my-2 my-md-0 mr-md-3 navegacion">
+        <span class="p-2 text-dark gr" >Usuario: <span id="user" class="normal"></span></span>
+        <span class="p-2 text-dark gr" >Cuenta: <span id="account" class="normal"></span></span>
+        <span class="p-2 text-dark gr" >Saldo: <span id="cash" class="normal"></span></span>
+        <span class="p-2 text-dark" ><button class="btn btn-danger my-2 my-sm-0" type="button" onclick="salir();">SALIR</button></span>
+
+      </nav>
+    </div>
+	
+	<iframe src="opciones.html" title="contenido" id="contenido" frameborder="0" scrolling="no" onload="resizeIframe()"></iframe>
+		
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	<script src="js/banco.js"> </script>
+</body>
+</html>
