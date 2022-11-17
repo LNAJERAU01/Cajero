@@ -172,7 +172,7 @@
 				let f = new Date();
 				let fecha = leftZero(f.getDate()) + "/"+ leftZero(f.getMonth()+1)+ "/" +f.getFullYear();
 				let hora = leftZero(f.getHours()) + ":"+ leftZero(f.getMinutes())+ ":" +leftZero(f.getSeconds());
-				
+					
 				var jsPDF = window.jspdf.jsPDF;
 				var doc = new jsPDF();
 				doc.addImage("img/Pokemon-Bank.jpg", "JPEG", 20, 15, 40, 23);

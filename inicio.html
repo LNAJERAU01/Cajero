@@ -11,8 +11,9 @@
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="js/banco.js"> </script>
      
 </head>
 
@@ -27,8 +28,17 @@
 
       </nav>
     </div>
-	
-	<iframe src="opciones.html" title="contenido" id="contenido" frameborder="0" scrolling="no" onload="resizeIframe()"></iframe>
+	<div class="container">
+	  <div class="row">
+		<div class="col izquierdo"><a class="btn btn-lg btn-primary" href="deposito.html" role="button"><img src="img/img_deposito.png" class="logo" />Depósito</a></div>
+		<div class="col derecho"><a class="btn btn-lg btn-primary" href="retiro.html" role="button">Retiro<img src="img/img_retiro.png" class="logo" /></a></div>
+	  </div>
+		<div class="w-100"></div><br>
+	  <div class="row ">
+		<div class="col izquierdo"><a class="btn btn-lg btn-primary" href="transacciones.html" role="button"><img src="img/img_transacciones.png" class="logo" />Transacciones</a></div>
+		<div class="col derecho"><a class="btn btn-lg btn-primary" href="pagos.html" role="button">Pago de Servicios<img src="img/img_pagos.png" class="logo" /></a></div>
+	  </div>
+	</div>
 		
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 	<script src="js/banco.js"> </script>

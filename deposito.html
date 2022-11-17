@@ -11,13 +11,23 @@
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
      
 </head>
 
 <body>
+	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+	  <h5 class="my-0 mr-md-auto font-weight-normal"><img src="img/Pokemon-Bank.jpg" class="logoP"/></h5>
+      <nav class="my-2 my-md-0 mr-md-3 navegacion">
+        <span class="p-2 text-dark gr" >Usuario: <span id="user" class="normal"></span></span>
+        <span class="p-2 text-dark gr" >Cuenta: <span id="account" class="normal"></span></span>
+        <span class="p-2 text-dark gr" >Saldo: <span id="cash" class="normal"></span></span>
+        <span class="p-2 text-dark" ><button class="btn btn-danger my-2 my-sm-0" type="button" onclick="salir();">SALIR</button></span>
+
+      </nav>
+    </div>
 	<div class="container">
       <div class="card-deck mb-3 text-center cont-dep">
         
@@ -38,7 +48,7 @@
             </ul>
             <button type="submit" class="btn btn-lg btn-block btn-primary">Efectuar</button>
 			
-            <a href="opciones.html" id="sindecoracion"><button type="button" class="btn btn-lg btn-block btn-danger" >Regresar</button></a>
+            <a href="inicio.html" id="sindecoracion"><button type="button" class="btn btn-lg btn-block btn-danger" >Regresar</button></a>
           </div>
 		  </form>
         </div>
@@ -49,6 +59,7 @@
     </div>
 		
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	<script src="js/banco.js"> </script>
 	<script src="js/deposito.js"> </script>
 </body>
 </html>
