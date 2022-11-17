@@ -170,7 +170,7 @@
 				
 				var jsPDF = window.jspdf.jsPDF;
 				var doc = new jsPDF();
-				doc.addImage("img/Pokemon-Bank.jpg", "JPEG", 20, 15, 40, 23);
+				//doc.addImage("img/Pokemon-Bank.jpg", "JPEG", 20, 15, 40, 23);
 				doc.setFontSize(22);
 				doc.text(20, 50, 'Comprobante de Retiro');
 				doc.setFontSize(14);
